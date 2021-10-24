@@ -1,0 +1,20 @@
+.kategoorianupp {
+  display: block;
+  width: 400px;
+  padding: 20px 0px;
+  margin: 10px auto;
+  text-decoration: none;
+  background-color: #657;
+}
+
+.buttonsss {
+  text-align: center;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: #1a0020;
+  padding: 20px 0px;
+  margin: 10px auto;
+}

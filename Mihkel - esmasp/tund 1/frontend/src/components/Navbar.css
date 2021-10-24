@@ -1,0 +1,12 @@
+.navbar {
+  background-color: green;
+  height: 150px;
+}
+
+.cart {
+  height: 35px;
+  display: flex;
+}
+
+.logo {
+}
