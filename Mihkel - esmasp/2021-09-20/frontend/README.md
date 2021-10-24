@@ -1,6 +1,6 @@
 # Kodutöö 4
 
-##Mobiili vaade
+## Mobiili vaade
 ![image](https://user-images.githubusercontent.com/71014196/138612694-06ce3e74-3bff-46d9-b395-47da8236eb6c.png)
 
 ## desktop vaade
