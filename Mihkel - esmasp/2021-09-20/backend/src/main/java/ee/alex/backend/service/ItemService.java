@@ -31,10 +31,10 @@ public class ItemService {
         itemRepository.save(item);
     }
 
-    public Item getOneItem(Long id) {
-        if (itemRepository.findById(id).isPresent()){
+    public Item getOneItem(Long id) throws Exception{
+        if(itemRepository.findById(id).isPresent()){
             return itemRepository.findById(id).get();
         }
-        return null;
+        throw new Exception();
     }
 }

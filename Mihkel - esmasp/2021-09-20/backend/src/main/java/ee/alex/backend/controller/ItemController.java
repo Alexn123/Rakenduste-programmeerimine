@@ -3,6 +3,7 @@ package ee.alex.backend.controller;
 
 import ee.alex.backend.model.Item;
 import ee.alex.backend.service.ItemService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -42,13 +43,14 @@ public class ItemController {
         return itemService.getItems();
     }
 
+    @ApiOperation("API otspunkt eseme muutmiseks alati saata kaasa ID")
     @PostMapping("edit-item")
     public void editItem(@RequestBody Item item){
         itemService.editItem(item);
     }
 
     @GetMapping("view-item/{id}")
-    public Item getOneItem(@PathVariable Long id){
+    public Item getOneItem(@PathVariable Long id) throws Exception{
         return itemService.getOneItem(id);
     }
 }

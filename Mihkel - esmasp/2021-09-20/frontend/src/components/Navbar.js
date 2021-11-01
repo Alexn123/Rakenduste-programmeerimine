@@ -7,6 +7,9 @@ function Navbar() {
       <Link to="/">
         <img className="logo" src="pood.png" alt=""/>
       </Link>
+      <Link to="admin">
+        <button>Admini vaatesse</button>
+      </Link>
       <Link to="cart">
         <img className="cart" src="cart.svg" alt=""/>
       </Link>
